@@ -1,0 +1,41 @@
+#Join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+}
+#Join-header {
+    
+    margin: 0;
+    margin-bottom: 10vh;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+}
+#Join-intructions {
+    text-align: center;
+    margin: 0;
+    min-width: 300px;
+    margin-bottom: 2vh;
+}
+.Join-input {
+    text-align: center;
+   margin-top: 2vh;
+    width: 80%;
+    height: 30px;
+    min-width: 200px;
+   
+}
+#Join-link {
+    margin-top: 2vh;
+    width: 200px;
+    height: 40px;
+}
+
+#Join-button {
+    height: 100%;
+    width: 100%;
+    outline: 2px solid black;
+}

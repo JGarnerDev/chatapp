@@ -1,0 +1,13 @@
+#InfoBar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    
+}
+#InfoBar-roomName {
+    margin: 0;
+    width: 100%;
+    text-align: justify;
+    font-size: 2em;
+    text-align: center;
+}

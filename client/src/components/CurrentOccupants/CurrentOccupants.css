@@ -1,0 +1,30 @@
+#CurrentOccupants {
+    width: 30%;
+    height: 100%;
+    outline: 1px solid black;  
+}
+#CurrentOccupants-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start; 
+}
+
+#CurrentOccupants-closeRoom {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    outline: solid black 1px;
+    color: black;
+    font-style: normal;
+} 
+
+#CurrentOccupants-header {
+    margin: 0;
+    font-size: 1em;
+   text-align: center;
+}
+
+.CurrentOccupants-username{
+    text-align: center;
+}
+
