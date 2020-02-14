@@ -8,4 +8,6 @@
 #Chat-room {
     width:90%;
     padding: 10px;
+    min-height: 90%;
 }
+

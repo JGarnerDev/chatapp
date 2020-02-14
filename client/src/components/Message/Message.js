@@ -1,5 +1,5 @@
 import React from "react";
-import ReactEmoji from 'react-emoji'
+import ReactEmoji from "react-emoji";
 import "./Message.css";
 
 const Message = ({ message: { user, text }, name }) => {
@@ -9,19 +9,15 @@ const Message = ({ message: { user, text }, name }) => {
     isSentByCurrentUser = true;
   }
   return isSentByCurrentUser ? (
-    <div>
-      <p>{trimmedName}</p>
-      <div>
-        <p>{ReactEmoji.emojify(text)}</p>
-      </div>
+    <div className="message">
+      <p className="message-username">{trimmedName + ": "}</p>
+        <p className="message-text">{ReactEmoji.emojify(text)}</p>   
     </div>
   ) : (
-    <div>
-    <p>{user}</p>
-    <div>
-      <p>{ReactEmoji.emojify(text)}</p>
+    <div className="message-otheruser">
+    <p className="message-otheruser-text">{ReactEmoji.emojify(text)}</p>
+      <p className="message-otheruser-username">{": " + user}</p>
     </div>
-  </div>
   );
 };
 
